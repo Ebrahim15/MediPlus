@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="top" id="top"></div>
+    <!-- First Nav Bar -->
+    <nav class="first-nav-bar">
+        <div class="first-nav-options-container">
+            <a href="">About</a>
+            <a href="">Doctors</a>
+            <a href="">Contact</a>
+            <a href="">FAQ</a>
+        </div>
+        <div class="phone-email-container">
+            <p class="phone-number"><img src="./icons/phone-icon.png" alt="phone">+880 1234 56789</p>
+            <p class="email"><img src="./icons/email.png" alt="email">email@domain.com</p>
+        </div>
+    </nav>
+
+    <!-- Second Nav Bar -->
+    <nav class="second-nav-bar" id="second-nav-bar">
+        <!-- Logo -->
+        <p style="font-weight: bold;">Medi<span>plus</span></p>
+
+
+        <!-- nav buttons -->
+        <div class="second-nav-container" id="second-nav-container">
+            <div class="second-nav-options-container">
+                <a href="">Home</a>
+                <a href="">Doctors</a>
+                <a href="">Services</a>
+                <div class="dropdown-container">
+                    <div class="dropdown-button-container">
+                        <div class="dropdown-button">Pages<img src="./icons/down-arrow.png" alt="down-arrow"></div>
+                    </div>
+                    <div class="dropdown-options"><a href="">404 Error</a></div>
+                </div>
+                <div class="dropdown-container">
+                    <div class="dropdown-button-container">
+                        <div class="dropdown-button">Blogs<img src="./icons/down-arrow.png" alt="down-arrow"></div>
+                    </div>
+                    <div class="dropdown-options"><a href="">404 Error</a></div>
+                </div>
+                <a href="">Contact Us</a>
+            </div>
+            <!-- Book Appointment Button -->
+            <div class="nav-book-appoinment-button-container">
+                <div></div>
+                <a href="" class="book-appoinment-button">Book Appointment</a>
+            </div>
+        </div>
+
+        <!-- small screens menu icon -->
+        <img class="small-screen-nav-icon" id="small-screen-nav-icon" src="./icons/burger-bar.png" alt="burger-bar">
+    </nav>
+
+    <!-- First Carousel -->
+    <div class="first-carousel-container">
+        <div class="carousel-container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-text-container">
+                            <p class="carousel-title">We Provide <span>Medical</span> Services <br>That You Can
+                                <span>Trust!</span>
+                            </p>
+                            <p class="carousel-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nobis quo
+                                quasi
+                                temporibus sequi, unde id aliquam reiciendis officiis pariatur eaque.</p>
+                            <div class="carousel-buttons-container">
+                                <button class="get-appointment-button">Get Appointment</button>
+                                <button class="contact-now-button">Contact Now</button>
+                            </div>
+                        </div>
+                        <img class="d-block w-100 carousel-image" src="./images/portrait14.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-text-container">
+                            <p class="carousel-title">We Provide <span>Medical</span> Services <br>That You Can
+                                <span>Trust!</span>
+                            </p>
+                            <p class="carousel-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nobis quo
+                                quasi
+                                temporibus sequi, unde id aliquam reiciendis officiis pariatur eaque.</p>
+                            <div class="carousel-buttons-container">
+                                <button class="get-appointment-button">Get Appointment</button>
+                                <button class="contact-now-button">About Us</button>
+                            </div>
+                        </div>
+                        <img class="d-block w-100 carousel-image" src="./images/portrait16.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-text-container">
+                            <p class="carousel-title">We Provide <span>Medical</span> Services <br>That You Can
+                                <span>Trust!</span>
+                            </p>
+                            <p class="carousel-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nobis quo
+                                quasi
+                                temporibus sequi, unde id aliquam reiciendis officiis pariatur eaque.</p>
+                            <div class="carousel-buttons-container">
+                                <button class="get-appointment-button">Get Appointment</button>
+                                <button class="contact-now-button">Learn More</button>
+                            </div>
+                        </div>
+                        <img class="d-block w-100 carousel-image" src="./images/portrait15.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <div class="prev-next-icon"><img class="prev-icon" src="./icons/down-arrow.png" alt="down"></div>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <div class="prev-next-icon"><img class="next-icon" src="./icons/down-arrow.png" alt="down"></div>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="carousel-cards-container">
+            <div class="carousel-card">
+                <div class="carousel-card-title">
+                    <p>Lorem ipsum.</p>
+                    <h2>Emergency Cases</h2>
+                </div>
+                <p class="carousel-card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+                    voluptatibus iste fugiat facilis, animi doloremque laudantium beatae odit sequi enim?</p>
+                <div class="carousel-card-button">LEARN MORE <img src="./icons/right-arrow1.png" alt="right-arrow">
+                </div>
+                <img class="carousel-card-logo" src="./icons/ambulance.png" alt="ambulance">
+            </div>
+            <div class="carousel-card">
+                <div class="carousel-card-title">
+                    <p>Lorem ipsum.</p>
+                    <h2>Doctors Timetable</h2>
+                </div>
+                <p class="carousel-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic neque
+                    quia mollitia animi magni architecto obcaecati laudantium aperiam, aspernatur veritatis!</p>
+                <div class="carousel-card-button">LEARN MORE <img src="./icons/right-arrow1.png" alt="right-arrow">
+                </div>
+                <img class="carousel-card-logo" src="./icons/timetable.png" alt="timetable">
+            </div>
+            <div class="carousel-card">
+                <div class="carousel-card-title">
+                    <p>Lorem ipsum.</p>
+                    <h2>Openning Hours</h2>
+                </div>
+                <div class="timetable">
+                    <p>Monday - Friday</p>
+                    <p>8.00-20.00</p>
+                </div>
+                <div class="timetable">
+                    <p>Saturday</p>
+                    <p>9.00-18.30</p>
+                </div>
+                <div class="timetable">
+                    <p>Monday - Thursday</p>
+                    <p>9.00-15.00</p>
+                </div>
+                <div class="carousel-card-button">LEARN MORE <img src="./icons/right-arrow1.png" alt="right-arrow">
+                </div>
+                <img class="carousel-card-logo" src="./icons/clock.png" alt="clock">
+            </div>
+        </div>
+    </div>
+
+    <!-- Help -->
+    <div class="help-container">
+        <div class="help-title">
+            <h1>We Are Always Ready To Help You &<br>Your Family</h1>
+            <img src="./icons/pulse.png" alt="pulse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptatum.</p>
+        </div>
+        <div class="help-types-container">
+            <div class="help">
+                <div class="help-logo-container">
+                    <img src="./icons/ambulance3.png" alt="ambulance">
+                </div>
+                <h3>Emergency Help</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quisquam.</p>
+            </div>
+            <span class="dots"></span>
+            <div class="help">
+                <div class="help-logo-container">
+                    <img src="./icons/pharmacy.png" alt="pharmacy">
+                </div>
+                <h3>Enriched Pharmecy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quisquam.</p>
+            </div>
+            <span class="dots"></span>
+            <div class="help">
+                <div class="help-logo-container">
+                    <img src="./icons/stethoscope1.png" alt="stethoscope">
+                </div>
+                <h3>Medical Treatment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quisquam.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- First Footer -->
+    <div class="first-footer">
+        <div class="first-footer-container">
+            <div class="first-footer-content">
+                <div class="first-footer-image-container">
+                    <img src="./icons/home.png" alt="home">
+                </div>
+                <div class="first-footer-text-container">
+                    <h2 class="number-counter" data-duration="4379" data-number="3468">3468</h2>
+                    <p>Hospital Rooms</p>
+                </div>
+            </div>
+
+            <div class="first-footer-content">
+                <div class="first-footer-image-container">
+                    <img src="./icons/user.png" alt="user">
+                </div>
+                <div class="first-footer-text-container">
+                    <h2 class="number-counter" data-duration="4379" data-number="557">557</h2>
+                    <p>Specialist Doctors</p>
+                </div>
+            </div>
+            <div class="first-footer-content">
+                <div class="first-footer-image-container">
+                    <img src="./icons/smiley-face-outline2.png" alt="smiley-face">
+                </div>
+                <div class="first-footer-text-container">
+                    <h2 class="number-counter" data-duration="1" data-number="4379">4379</h2>
+                    <p>Happy Patients</p>
+                </div>
+            </div>
+            <div class="first-footer-content">
+                <div class="first-footer-image-container">
+                    <img src="./icons/calendar-outline.png" alt="calendar">
+                </div>
+                <div class="first-footer-text-container">
+                    <h2 class="number-counter" data-duration="4379" data-number="32">32</h2>
+                    <p>Years of Experience</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="services-container">
+        <div class="help-title">
+            <h1>We Offer Different Services To <br> Improve Your Health</h1>
+            <img src="./icons/pulse.png" alt="pulse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptatum.</p>
+        </div>
+        <div class="text-video-container">
+            <div class="who-we-are">
+                <h3><span>Who</span> We Are</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia provident quod nulla aut cum error
+                    dignissimos autem libero rerum soluta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, necessitatibus?</p>
+                <div class="video-names-container">
+                    <div class="playlist-container">
+                        <div class="video-name">
+                            <div class="play-icon-container"><img src="./icons/play.png" alt="play"></div> Lorem, ipsum
+                            dolor.
+                        </div>
+                        <div class="video-name">
+                            <div class="play-icon-container"><img src="./icons/play.png" alt="play"></div> Lorem, ipsum
+                            dolor.
+                        </div>
+                        <div class="video-name">
+                            <div class="play-icon-container"><img src="./icons/play.png" alt="play"></div> Lorem, ipsum
+                            dolor.
+                        </div>
+                    </div>
+                    <div class="playlist-container">
+                        <div class="video-name">
+                            <div class="play-icon-container"><img src="./icons/play.png" alt="play"></div> Lorem, ipsum
+                            dolor.
+                        </div>
+                        <div class="video-name">
+                            <div class="play-icon-container"><img src="./icons/play.png" alt="play"></div> Lorem, ipsum
+                            dolor.
+                        </div>
+                        <div class="video-name">
+                            <div class="play-icon-container"><img src="./icons/play.png" alt="play"></div> Lorem, ipsum
+                            dolor.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-player-container">
+                <div class="video-play-icon-container">
+                    <div></div>
+                    <div></div>
+                    <img src="./icons/play.png" alt="play">
+                </div>
+            </div>
+            <!-- Video pop-up -->
+            <div class="video-popup-container">
+                <div class="video-popup-bg"></div>
+                <img class="video-popup-exit" src="./icons/wrong.png" alt="wrong">
+                <iframe src="https://www.youtube.com/embed/NzZyd2eSRss?si=8SgW4m9iyMI8eEAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Second Footer -->
+    <div class="second-footer">
+        <div class="second-footer-container">
+            <h2>Do you need Emergency Medical <br> Care? Call @ 1234 56789</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolor vero, rem dolores reprehenderit
+                minima rerum dolore vitae dicta enim.</p>
+            <div class="second-footer-buttons-container">
+                <button class="second-footer-contact-now">Contact Now</button>
+                <button class="second-footer-learn-more">Learn More <img src="./icons/right-arrow1.png"
+                        alt="right-arrow"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second carousel -->
+    <div class="second-carousel">
+        <div class="help-title">
+            <h1>We Maintain Cleanliness Rules <br> Inside Our Hospital</h1>
+            <img src="./icons/pulse.png" alt="pulse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptatum.</p>
+        </div>
+        <div class="second-carousel-container">
+            <div class="second-carousel-slider">
+                <!-- <div class="second-carousel-image-container first">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container second">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container third">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container fourth">
+                    <div><button>View Details</button></div>
+                </div>
+    
+                <div class="second-carousel-image-container first">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container second">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container third">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container fourth">
+                    <div><button>View Details</button></div>
+                </div> -->
+                <div style="padding: 1rem;">
+                    <div class="second-carousel-image-container first">
+                        <div><button>View Details</button></div>
+                    </div>
+                </div>
+                <div style="padding: 1rem;">
+                    <div class="second-carousel-image-container second">
+                        <div><button>View Details</button></div>
+                    </div>
+                </div>
+                <div style="padding: 1rem;">
+                    <div class="second-carousel-image-container third">
+                        <div><button>View Details</button></div>
+                    </div>
+                </div>
+                <div style="padding: 1rem;">
+                    <div class="second-carousel-image-container fourth">
+                        <div><button>View Details</button></div>
+                    </div>
+                </div>
+                <div style="padding: 1rem;">
+                    <div class="second-carousel-image-container first">
+                        <div><button>View Details</button></div>
+                    </div>
+                </div>
+                <div style="padding: 1rem;">
+                    <div class="second-carousel-image-container second">
+                        <div><button>View Details</button></div>
+                    </div>
+                </div>
+                <div style="padding: 1rem;">
+                    <div class="second-carousel-image-container third">
+                        <div><button>View Details</button></div>
+                    </div>
+                </div>
+                <div style="padding: 1rem;">
+                    <div class="second-carousel-image-container fourth">
+                        <div><button>View Details</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fourth Section -->
+    <div class="fourth-section">
+        <div class="help-title">
+            <h1>We Offer Different Services To <br> Improve Your Health</h1>
+            <img src="./icons/pulse.png" alt="pulse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptatum.</p>
+        </div>
+        <div class="fourth-section-column">
+            <div class="fourth-section-row">
+                <div class="fourth-section-row-item">
+                    <div class="fourth-section-row-image-container">
+                        <img src="./icons/clipboard.png" alt="clipboard">
+                    </div>
+                    <div class="fourth-section-row-item-description">
+                        <h3>General Treatment</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo porro iure atque, et
+                            repudiandae perferendis?</p>
+                    </div>
+                </div>
+                <div class="fourth-section-row-item">
+                    <div class="fourth-section-row-image-container">
+                        <img src="./icons/tooth.png" alt="tooth">
+                    </div>
+                    <div class="fourth-section-row-item-description">
+                        <h3>Teeth Whitening</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo porro iure atque, et
+                            repudiandae perferendis?</p>
+                    </div>
+                </div>
+                <div class="fourth-section-row-item">
+                    <div class="fourth-section-row-image-container">
+                        <img src="./icons/heart.png" alt="heart">
+                    </div>
+                    <div class="fourth-section-row-item-description">
+                        <h3>Heart Surgery</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo porro iure atque, et
+                            repudiandae perferendis?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth-section-row">
+                <div class="fourth-section-row-item">
+                    <div class="fourth-section-row-image-container">
+                        <img src="./icons/ear.png" alt="ear">
+                    </div>
+                    <div class="fourth-section-row-item-description">
+                        <h3>Ear Treatment</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo porro iure atque, et
+                            repudiandae perferendis?</p>
+                    </div>
+                </div>
+                <div class="fourth-section-row-item">
+                    <div class="fourth-section-row-image-container">
+                        <img src="./icons/vision.png" alt="vision">
+                    </div>
+                    <div class="fourth-section-row-item-description">
+                        <h3>Vision Problems</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo porro iure atque, et
+                            repudiandae perferendis?</p>
+                    </div>
+                </div>
+                <div class="fourth-section-row-item">
+                    <div class="fourth-section-row-image-container">
+                        <img src="./icons/drop-counter.png" alt="drop-counter">
+                    </div>
+                    <div class="fourth-section-row-item-description">
+                        <h3>Blood Transfusion</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo porro iure atque, et
+                            repudiandae perferendis?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prices Section -->
+    <div class="prices-section">
+        <div class="help-title">
+            <h1>We Provide You The Best Treatment <br> In Resonable Price</h1>
+            <img src="./icons/pulse.png" alt="pulse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptatum.</p>
+        </div>
+        <div class="price-cards-container">
+            <div class="price-card">
+                <div class="price-card-logo-container">
+                    <img src="./icons/scissors.png" alt="scissors">
+                    <div>
+                        <h4>Plastic Surgery</h4>
+                        <p>$199 <span>/ Per Visit</span></p>
+                    </div>
+                </div>
+                <div class="price-card-details-container">
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container wrong-icon">
+                            <img src="./icons/wrong.png" alt="wrong-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container wrong-icon">
+                            <img src="./icons/wrong.png" alt="wrong-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container wrong-icon">
+                            <img src="./icons/wrong.png" alt="wrong-check">
+                        </div>
+                    </div>
+                </div>
+                <button>Book Now</button>
+            </div>
+            <div class="price-card">
+                <div class="price-card-logo-container">
+                    <img src="./icons/tooth.png" alt="tooth">
+                    <div>
+                        <h4>Teeth Whitening</h4>
+                        <p>$199 <span>/ Per Visit</span></p>
+                    </div>
+                </div>
+                <div class="price-card-details-container">
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container wrong-icon">
+                            <img src="./icons/wrong.png" alt="wrong-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container wrong-icon">
+                            <img src="./icons/wrong.png" alt="wrong-check">
+                        </div>
+                    </div>
+                </div>
+                <button>Book Now</button>
+            </div>
+            <div class="price-card">
+                <div class="price-card-logo-container">
+                    <img src="./icons/heart-beat.png" alt="heart-beat">
+                    <div>
+                        <h4>Heart Surgery</h4>
+                        <p>$199 <span>/ Per Visit</span></p>
+                    </div>
+                </div>
+                <div class="price-card-details-container">
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                    <div class="price-detail">Lorem ipsum dolor sit.<div class="price-detail-icon-container right-icon">
+                            <img src="./icons/right-check.png" alt="right-check">
+                        </div>
+                    </div>
+                </div>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Medical News -->
+    <div class="medical-news">
+        <div class="help-title">
+            <h1>Keep Up With Our Most Recent <br> Medical News.</h1>
+            <img src="./icons/pulse.png" alt="pulse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptatum.</p>
+        </div>
+        <div class="news-cards-container">
+            <div class="news-card">
+                <div class="news-card-image-container"><img src="./images/doctors-meeting8.jpeg" alt="doctors-meeting">
+                </div>
+                <div class="news-card-description-container">
+                    <p class="news-card-date">22 Aug, 2045</p>
+                    <h5>We have announced our new product.</h5>
+                    <p class="news-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos veniam veritatis excepturi voluptas aliquid magnam ducimus in molestias beatae
+                        assumenda?</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-card-image-container"><img src="./images/doctors-meeting5.jpeg" alt="doctors-meeting">
+                </div>
+                <div class="news-card-description-container">
+                    <p class="news-card-date">15 Jul, 2045</p>
+                    <h5>Top five way for solving teeth problems.</h5>
+                    <p class="news-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos veniam veritatis excepturi voluptas aliquid magnam ducimus in molestias beatae
+                        assumenda?</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-card-image-container"><img src="./images/doctors-meeting4.jpeg" alt="doctors-meeting">
+                </div>
+                <div class="news-card-description-container">
+                    <p class="news-card-date">05 Jan, 2045</p>
+                    <h5>We provide highly business solutions.</h5>
+                    <p class="news-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos veniam veritatis excepturi voluptas aliquid magnam ducimus in molestias beatae
+                        assumenda?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Third Footer -->
+    <div class="third-footer">
+        <div class="third-footer-container">
+            <!-- <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt=""> -->
+            <div class="third-carousel-container">
+                <div class="third-carousel-slider">
+                    <div class="third-carousel-image-container first">
+                        <img src="./icons/hospital-logo1.png" alt="h">
+                    </div>
+                    <div class="third-carousel-image-container second">
+                        <img src="./icons/hospital-logo2.png" alt="h">
+                    </div>
+                    <div class="third-carousel-image-container third">
+                        <img src="./icons/heart-care.png" alt="h">
+                    </div>
+                    <div class="third-carousel-image-container fourth">
+                        <img src="./icons/hospital-logo1.png" alt="h">
+                    </div>
+                    <div class="third-carousel-image-container first">
+                        <img src="./icons/hospital-logo1.png" alt="h">
+                    </div>
+                    <div class="third-carousel-image-container second">
+                        <img src="./icons/hospital-logo2.png" alt="h">
+                    </div>
+                    <div class="third-carousel-image-container third">
+                        <img src="./icons/heart-care.png" alt="h">
+                    </div>
+                    <div class="third-carousel-image-container fourth">
+                        <img src="./icons/hospital-logo1.png" alt="h">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="second-carousel-container">
+            <div class="second-carousel-slider">
+                <div class="second-carousel-image-container first">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container second">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container third">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container fourth">
+                    <div><button>View Details</button></div>
+                </div>
+    
+                <div class="second-carousel-image-container first">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container second">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container third">
+                    <div><button>View Details</button></div>
+                </div>
+                <div class="second-carousel-image-container fourth">
+                    <div><button>View Details</button></div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- Book An Appointment -->
+    <div class="book-appointment">
+        <div class="help-title">
+            <h1>We Are Always Ready To Help You <br> Book An Appointment.</h1>
+            <img src="./icons/pulse.png" alt="pulse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptatum.</p>
+        </div>
+        <div class="book-appointment-container">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-column">
+                        <input type="text" placeholder="Name">
+                        <input type="tel" placeholder="Phone">
+                        <div class="form-dropdown" tabindex="0">
+                            <div class="form-dropdown-button" id="doctor-button" data-name="doctor">
+                                Doctor <img class="dropdown-menu-arrow" src="./icons/down-arrow.png" alt="down-arrow">
+                            </div>
+                            <div class="form-dropdown-menu" id="doctor-menu" data-name="doctor">
+                                <div class="form-dropdown-menu-options" data-name="Doctor">Doctor</div>
+                                <div class="form-dropdown-menu-options" data-name="Dr. Alex">Dr. Alex</div>
+                                <div class="form-dropdown-menu-options" data-name="Dr. Mark">Dr. Mark</div>
+                                <div class="form-dropdown-menu-options" data-name="Dr. Jovis">Dr. Jovis</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-column">
+                        <input type="email" placeholder="Email">
+                        <div class="form-dropdown" tabindex="0">
+                            <div class="form-dropdown-button" id="department-button" data-name="department">
+                                Department <img class="dropdown-menu-arrow" src="./icons/down-arrow.png" alt="down-arrow">
+                            </div>
+                            <div class="form-dropdown-menu" id="department-menu" data-name="department">
+                                <div class="form-dropdown-menu-options" data-name="Department">Department</div>
+                                <div class="form-dropdown-menu-options" data-name="Cardiac Clinic">Cardiac Clinic</div>
+                                <div class="form-dropdown-menu-options" data-name="Neurology">Neurology</div>
+                                <div class="form-dropdown-menu-options" data-name="Dentistry">Dentistry</div>
+                            </div>
+                        </div>
+                        <input type="date" placeholder="Date">
+                    </div>
+                </div>
+                <textarea rows="10" cols="10" placeholder="Write Your Message Here....."></textarea>
+                <div class="book-appointment-button-container">
+                    <button>Book An Appointment</button>
+                    <p>( We will confirm by a text message. )</p>
+                </div>
+            </form>
+            <img src="./images/appointment-doctors6.png" alt="doctors">
+        </div>
+    </div>
+
+    <!-- NewsLetter -->
+    <div class="newsletter">
+        <div>
+            <h3>Sign up for newsletter</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, provident.</p>
+        </div>
+        <form action="">
+            <input type="email" placeholder="Your email address">
+            <button>Subscribe</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-row">
+            <div class="footer-about-us">
+                <h3>About Us</h3>
+                <div class="footer-item-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam amet sapiente, autem neque nobis
+                        provident facere numquam incidunt delectus at.</p>
+                    <div class="footer-about-us-icons">
+                        <div class="footer-about-us-icon-container"><img src="./icons/facebook.png" alt="facebook">
+                        </div>
+                        <div class="footer-about-us-icon-container"><img src="./icons/google-plus.png"
+                                alt="google-plus"></div>
+                        <div class="footer-about-us-icon-container"><img src="./icons/twitter.png" alt="twitter"></div>
+                        <div class="footer-about-us-icon-container"><img src="./icons/vimeo.png" alt="vimeo"></div>
+                        <div class="footer-about-us-icon-container"><img src="./icons/pinterest.png" alt="pinterest">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-quick-links">
+                <h3>Quick Links</h3>
+                <div class="footer-item-content">
+                    <div class="footer-quick-links-row">
+                        <div class="footer-quick-links-column">
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                Home
+                            </a>
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                About Us
+                            </a>
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                Services
+                            </a>
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                Our Cases
+                            </a>
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                Other Links
+                            </a>
+                        </div>
+                        <div class="footer-quick-links-column">
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                Consulting
+                            </a>
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                Finance
+                            </a>
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                Testimonials
+                            </a>
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                FAQ
+                            </a>
+                            <a href="" class="footer-quick-link">
+                                <img src="./icons/play.png" alt="play">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-open-hours">
+                <h3>Open Hours</h3>
+                <div class="footer-item-content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ea ipsum officiis natus
+                        deserunt totam alias facilis ipsam dolorum provident.</p>
+                    <div class="timetable-container">
+                        <div class="timetable">
+                            <p>Monday - Friday</p>
+                            <p>8.00-20.00</p>
+                        </div>
+                        <div class="timetable">
+                            <p>Saturday</p>
+                            <p>9.00-18.30</p>
+                        </div>
+                        <div class="timetable">
+                            <p>Monday - Thursday</p>
+                            <p>9.00-15.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <div class="footer-item-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptas quo dicta, a dolor
+                        delectus inventore atque fuga laborum ducimus.</p>
+                    <form action="">
+                        <input type="email" placeholder="Email Address">
+                        <button><img src="./icons/paper-plane.png" alt="paper-plane"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Copyrights -->
+    <div class="footer-copyright">
+        © Copyright 2045 | All Rights Reserved by <a href="">wpthemesgrid</a>
+    </div>
+
+    <!-- Scroll to top button -->
+    <div class="scroll-to-top-button" id="scrollToTop">
+        <img src="./icons/down-arrow.png" alt="down-arrow">
+    </div>
+    <!-- BootStrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
